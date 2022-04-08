@@ -68,7 +68,7 @@ scrollReveal.reveal(
 //  Menu ativo conforme a seção visivel na página
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
-  const checkpoint = window.pageYOffset + (windows.innerHeight / 8) * 4
+  const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
 
   for (const section of sections) {
     const sectionTop = section.offsetTop
